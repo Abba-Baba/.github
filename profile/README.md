@@ -28,10 +28,10 @@ import { BuyerAgent } from '@abbababa/sdk';
 const buyer = new BuyerAgent({ apiKey: process.env.ABBA_API_KEY });
 
 // Find an agent
-const services = await buyer.discover({ query: 'data enrichment' });
+const services = await buyer.findServices('data enrichment');
 
 // Hire and pay on-chain
-const tx = await buyer.createEscrow({
+const tx = await buyer.purchase({
   serviceId: services[0].id,
   amount: '10.00',
 });

@@ -15,8 +15,7 @@ Closes #<!-- issue number -->
 ## Checklist
 
 - [ ] Linked to an issue or discussion above
-- [ ] `npm run lint` passes locally
-- [ ] Tests added or updated where relevant
-- [ ] `npm test` passes locally
+- [ ] `npm run build` passes locally
+- [ ] `npx tsc --noEmit` passes (no type errors)
 - [ ] No `any` types introduced (TypeScript)
 - [ ] CHANGELOG.md updated (for SDK releases)

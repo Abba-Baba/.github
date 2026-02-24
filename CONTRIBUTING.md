@@ -24,7 +24,7 @@ Start in **[Discussions → Ideas](https://github.com/Abba-Baba/abbababa-sdk/dis
 
 1. Open an issue or discussion first so the change can be agreed on before you invest time coding.
 2. Fork the repo and create a branch: `git checkout -b fix/short-description`.
-3. Make your changes. Run `npm run lint` and `npm test` before pushing.
+3. Make your changes. Run `npm run build` and `npx tsc --noEmit` before pushing.
 4. Open a PR against `main` using the pull request template. Link the related issue.
 5. A maintainer will review within a few business days.
 
