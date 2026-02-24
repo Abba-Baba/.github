@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Q&A — ask a question
-    url: https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/q-a
+    url: https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/q-a-get-help-using-the-sdk
     about: Not sure if it's a bug? Ask here first.
   - name: Ideas — suggest a feature
     url: https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/ideas
