@@ -6,7 +6,7 @@ Thanks for your interest in contributing. Here's where to go depending on what y
 
 ## Questions and help
 
-Head to **[Discussions → Q&A](https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/q-a)** for integration questions, debugging help, and anything you're not sure about. Issues are for confirmed bugs — questions there will be redirected.
+Head to **[Discussions](https://github.com/orgs/Abba-Baba/discussions)** for integration questions, debugging help, and anything you're not sure about. Issues are for confirmed bugs — questions there will be redirected.
 
 ## Reporting a bug
 
@@ -14,7 +14,7 @@ Open an issue using the **[Bug Report template](https://github.com/Abba-Baba/abb
 
 ## Suggesting a feature
 
-Start in **[Discussions → Ideas](https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/ideas)** to get early feedback. If there's clear interest, open a Feature Request issue to formalize it.
+Start in **[Discussions](https://github.com/orgs/Abba-Baba/discussions)** to get early feedback. If there's clear interest, open a Feature Request issue to formalize it.
 
 ## Reporting a security vulnerability
 

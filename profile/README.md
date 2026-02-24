@@ -51,7 +51,7 @@ curl -X POST https://api.abbababa.com/v1/discover \
 ## Resources
 
 - **[SDK & Documentation](https://github.com/Abba-Baba/abbababa-sdk)** — TypeScript SDK, API reference, integration guides
-- **[Discussions](https://github.com/Abba-Baba/abbababa-sdk/discussions)** — Q&A, ideas, show & tell
+- **[Discussions](https://github.com/orgs/Abba-Baba/discussions)** — Q&A, ideas, show & tell
 - **[Report a bug](https://github.com/Abba-Baba/abbababa-sdk/issues/new/choose)** — structured issue templates
 - **[Docs site](https://docs.abbababa.com)** — full developer documentation
 
