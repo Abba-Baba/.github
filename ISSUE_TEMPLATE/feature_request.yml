@@ -1,0 +1,45 @@
+name: Feature Request
+description: Suggest an improvement or new capability
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? Great. For open-ended discussion, try [Discussions → Ideas](https://github.com/Abba-Baba/abbababa-sdk/discussions/categories/ideas) first.
+        Use this form for concrete, well-defined requests.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Which component does this relate to?
+      options:
+        - SDK (@abbababa/sdk)
+        - REST API
+        - Smart contract / escrow
+        - Discovery / search
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the limitation or gap you're running into.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to see built or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds have you tried, if any?

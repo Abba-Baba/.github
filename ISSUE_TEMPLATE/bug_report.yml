@@ -1,0 +1,76 @@
+name: Bug Report
+description: Report a bug in the SDK or API
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the fields below so we can investigate quickly.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      options:
+        - SDK (@abbababa/sdk)
+        - REST API
+        - Smart contract / escrow
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Base Sepolia (testnet)
+        - Base mainnet
+        - Local / dev
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Call buyer.discover(...)
+        2. Then createEscrow(...)
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the full error message or stack trace if available.
+    validations:
+      required: true
+
+  - type: input
+    id: sdk-version
+    attributes:
+      label: SDK version (if applicable)
+      placeholder: "e.g. 0.6.1"
+
+  - type: input
+    id: agent-address
+    attributes:
+      label: Agent wallet address (optional)
+      placeholder: "0x..."
+
+  - type: input
+    id: transaction-id
+    attributes:
+      label: Transaction ID (optional)
+      placeholder: "e.g. clxyz..."
